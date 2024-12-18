@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="295.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <center>
+      <AnchorPane prefHeight="259.0" prefWidth="448.0" BorderPane.alignment="CENTER">
+         <children>
+            <Ellipse fill="#e1e1e1" layoutX="283.0" layoutY="148.0" radiusX="259.0" radiusY="131.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+               <Button fx:id="viewdata" layoutX="97.0" layoutY="174.0" onAction="#handleRead" prefHeight="49.0" prefWidth="175.0" text="View Data" textAlignment="CENTER" />
+               <Button layoutX="294.0" layoutY="174.0" onAction="#handleEdit" prefHeight="49.0" prefWidth="176.0" text="Edit Data" textAlignment="CENTER" />
+            <Text layoutX="257.0" layoutY="109.0" lineSpacing="30.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Studio Film" wrappingWidth="177.740234375">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="16.0" layoutX="110.0" layoutY="113.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" width="19.0" />
+            <Polygon layoutX="244.0" layoutY="122.0" points="-110.0, -1.0, -7.0, 14.5, -7.0, -17.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="43.0" layoutX="233.0" layoutY="100.0" stroke="#e1e1e1" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="54.0" layoutX="127.0" layoutY="94.0" stroke="#e1e1e1" strokeLineCap="ROUND" strokeType="INSIDE" width="90.0" />
+            <Circle layoutX="188.0" layoutY="73.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle layoutX="150.0" layoutY="80.0" radius="16.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="109.0" layoutY="106.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" width="11.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="28.0" layoutX="136.0" layoutY="107.0" rotate="-179.6" stroke="#e1e1e1" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="67.0">
+               <effect>
+                  <InnerShadow blurType="GAUSSIAN" choke="0.27" height="2.91" offsetX="2.0" offsetY="3.0" radius="2.4125" width="8.74">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </Rectangle>
+            <Circle layoutX="151.0" layoutY="116.0" radius="7.0" rotate="141.7" stroke="BLACK" strokeType="INSIDE">
+               <effect>
+                  <InnerShadow choke="0.82" height="0.0" offsetY="3.0" radius="0.5925" width="4.37">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </Circle>
+            <Circle layoutX="169.0" layoutY="116.0" radius="7.0" rotate="141.7" stroke="BLACK" strokeType="INSIDE">
+               <effect>
+                  <InnerShadow choke="0.82" height="0.0" offsetY="3.0" radius="0.5925" width="4.37">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </Circle>
+            <Circle layoutX="187.0" layoutY="116.0" radius="7.0" rotate="141.7" stroke="BLACK" strokeType="INSIDE">
+               <effect>
+                  <InnerShadow choke="0.82" height="0.0" offsetY="3.0" radius="0.5925" width="4.37">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </Circle>
+            <Text layoutX="257.0" layoutY="140.0" lineSpacing="30.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Management" wrappingWidth="191.240234375">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
